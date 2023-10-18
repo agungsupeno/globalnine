@@ -26,6 +26,10 @@ $(document).ready(function() {
         showNotification('success', 'Data Berhasil Terupdate', 'Data telah berhasil disimpan ke dalam database.');
     } else if (response === "hapus_success") {
         showNotification('success', 'Data Berhasil Terhapus', 'Data telah berhasil disimpan ke dalam database.');
+    } else if (response === "no_req") {
+        showNotification('warning', 'No. Req sudah ada. Silakan gunakan No. Req yang berbeda.');
+    } else if (response === "stok_habis") {
+        showNotification('warning', 'Stok Habis, Mohon Cek ulang Stok Anda');
     }
 });
 </script>

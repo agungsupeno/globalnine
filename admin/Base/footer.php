@@ -1,8 +1,8 @@
 <footer class="main-footer">
     <div class="float-right d-none d-sm-inline">
-      Anything you want
+      <b>Version Upgrade Beta.</b> 2.1
     </div>
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; <?php echo date("Y"); ?>  </strong> PT GlobalNIne Indonesia
 </footer>
 </div>
 
